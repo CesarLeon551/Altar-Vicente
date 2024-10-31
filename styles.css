@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('título.png'); /* Agrega tu imagen de fondo aquí */
+    background-size: cover;  /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+}
+
+.album-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FFD700; /* Dorado */
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #FF6347; /* Tomate */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.track {
+    margin: 10px 0;
+    color: #000; /* Cambia el texto de las canciones a negro */
+}
+
+.track button {
+    background-color: #FF4500; /* Naranja */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.track button:hover {
+    background-color: #FF6347; /* Tomate */
+    transform: scale(1.05);
+}
